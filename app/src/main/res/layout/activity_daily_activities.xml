@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#A7FFEB"
+    tools:context=".DailyActivitiesActivity">
+
+    <!-- الحاوية العلوية (Today's Progress ) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:background="#A7FFEB">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today's Progress"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/text_total_coins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            android:textColor="#651FFF"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginVertical="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today's Activities"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+
+    <!-- قائمة الإنجازات (RecyclerView) - ديناميكي -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_achievements"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingHorizontal="16dp"
+        android:clipToPadding="false"
+        android:scrollbars="vertical"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/item_achievement" />
+
+    <!-- أزرار الإجراءات (ثابتة) -->
+    <Button
+        android:id="@+id/btn_start_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Activity"
+        android:backgroundTint="#00E676"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:minHeight="56dp"
+        app:cornerRadius="28dp"/>
+
+    <Button
+        android:id="@+id/btn_back_to_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Menu"
+        android:backgroundTint="#651FFF"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="16dp"
+        android:minHeight="56dp"
+        app:cornerRadius="28dp"/>
+
+</LinearLayout>

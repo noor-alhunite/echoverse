@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/achievement_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/white">
+
+        <!-- العنوان والعملات -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/text_achievement_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Discover 3 new sounds"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/text_reward_coins"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 Coins"
+                android:textSize="14sp"
+                android:textColor="#00E676"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <!-- الوصف -->
+        <TextView
+            android:id="@+id/text_achievement_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Listen and learn new sounds"
+            android:textSize="12sp"
+            android:textColor="#616161"
+            android:layout_marginTop="4dp"/>
+
+        <!-- شريط التقدم -->
+        <ProgressBar
+            android:id="@+id/progress_bar_achievement"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_marginTop="12dp"
+            android:max="100"
+            android:progress="60"
+            android:progressTint="#651FFF"
+            android:progressBackgroundTint="#E0E0E0"/>
+
+        <!-- نص التقدم -->
+        <TextView
+            android:id="@+id/text_achievement_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="60%"
+            android:textSize="12sp"
+            android:textColor="#616161"
+            android:layout_gravity="end"
+            android:layout_marginTop="4dp"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

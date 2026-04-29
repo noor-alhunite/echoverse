@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EchoVerse</string>
+
+    <!-- Navigation & Main Menu -->
+    <string name="sound_library">Sound Library</string>
+    <string name="daily_activities">Daily Activities</string>
+    <string name="games">Games</string>
+    <string name="rewards">Rewards &amp; Achievements</string>
+    <string name="statistics">Statistics</string>
+    <string name="settings_button">Settings</string>
+
+    <!-- Sound Library -->
+    <string name="search_hint">Search for sound...</string>
+    <string name="all">All</string>
+    <string name="animals">Animals</string>
+    <string name="vehicles">Vehicles</string>
+    <string name="nature">Nature</string>
+    <string name="music">Music</string>
+
+    <!-- Sound Library Resources -->
+    <string name="library_title">Sound Library</string>
+    <string name="library_description">Listen to all available sounds in the app and learn their names.</string>
+
+    <!-- Sound Names -->
+    <string name="lion">Lion</string>
+    <string name="cat">Cat</string>
+    <string name="dog">Dog</string>
+    <string name="bird">Bird</string>
+    <string name="rain">Rain</string>
+    <string name="thunder">Thunder</string>
+    <string name="car">Car</string>
+    <string name="ambulance">Ambulance</string>
+    <string name="fire_truck">Fire Truck</string>
+    <string name="bell">Bell</string>
+
+
+    <!-- Games -->
+    <string name="sound_picture_match">Match Sound with Picture</string>
+    <string name="sound_sequence">Sound Sequence</string>
+    <string name="odd_one_out">Odd One Out</string>
+    <string name="what_is_this_sound">What is this sound?</string>
+
+    <!-- Daily Tasks -->
+    <string name="discover_new_sounds">Discover 3 new sounds</string>
+    <string name="listen_learn_sounds">Listen and learn new sounds</string>
+    <string name="match_sounds_pictures">Match sounds with pictures</string>
+    <string name="listen_animal_sounds">Listen to 3 animal sounds</string>
+    <string name="get_three_stars">Get 3 stars in games</string>
+    <string name="answer_correctly">Answer correctly in games</string>
+
+    <!-- Rewards -->
+    <string name="points">Points</string>
+    <string name="coins">Coins</string>
+    <string name="reward">Reward</string>
+    <string name="complete_all">Complete all daily tasks for special reward</string>
+
+    <!-- Statistics -->
+    <string name="current_level">Current Level</string>
+    <string name="level_progress">Progress to next level</string>
+    <string name="daily_streak">Daily Streak</string>
+    <string name="days">Days</string>
+    <string name="total_points">Total Points</string>
+    <string name="game_over_message">Game Over! Your score: %1$d/%2$d</string>
+
+
+    <!-- Settings & Language Selection -->
+    <string name="settings_title">App Settings</string>
+    <string name="language_setting">Language</string>
+    <string name="sound_effects_toggle">Sound Effects</string>
+    <string name="account_management">Account Management</string>
+    <string name="select_language_prompt">Please select application language</string>
+    <string name="language_english">English</string>
+    <string name="language_arabic">Arabic</string>
+
+    <!-- Buttons -->
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="start">Start</string>
+    <string name="listen">Listen</string>
+    <string name="record">Record</string>
+    <string name="next">Next</string>
+    <string name="complete">Complete</string>
+    <string name="continuee">Continue</string>
+
+    <!-- Messages -->
+    <string name="discover_world_sounds">Discover the World of Sounds</string>
+    <string name="start_listening">Start Listening</string>
+    <string name="start_game">Start Game</string>
+    <string name="keep_excellence">Keep up the excellence!</string>
+
+    <!-- New Lines -->
+    <string name="start_activity">Start Activity</string>
+    <string name="today_progress">Today\'s Progress</string>
+    <string name="todays_activities">Today\'s Activities</string>
+    <string name="back_to_main">Back to Main</string>
+    <string name="play_sound">Play Sound</string>
+    <string name="todays_achievement">Today\'s Achievement</string>
+    <string name="completed_activities">Completed 3 activities today!</string>
+    <string name="earned_points">Earned 25 points ✓</string>
+    <string name="weekly_calendar">Weekly Calendar</string>
+    <string name="days_streak">5 days streak</string>
+    <string name="correct_answer">Correct Answer! Excellent!</string>
+    <string name="wrong_answer">Wrong Answer. Try again.</string>
+    <!-- Daily Achievements -->
+    <string name="achievement_title_1">Active Listener</string>
+    <string name="achievement_desc_1">Complete 3 rounds in the sound game.</string>
+    <string name="achievement_title_2">Sound Explorer</string>
+    <string name="achievement_desc_2">Listen to 5 different sounds in the Sound Library.</string>
+    <string name="achievement_title_3">Daily Hero</string>
+    <string name="achievement_desc_3">Complete two daily achievements.</string>
+    <string name="achievement_progress">Progress: %1$d of %2$d</string>
+    <string name="rewards_title">Rewards</string>
+    <string name="rewards_current_points">Your Current Points:</string>
+    <string name="points_format">%1$d Points</string>
+    <string name="reward_status_unlocked">Unlocked</string>
+    <string name="not_enough_points">You do not have enough points to purchase this reward.</string>
+    <string name="purchase_success">Congratulations! Unlocked: %1$s</string>
+    <string name="content_desc_points_icon">Points Icon</string>
+    <string name="content_desc_reward_icon">Reward Icon</string>
+    <string name="reward_ocean_sound">Calm Ocean Sound</string>
+    <string name="reward_forest_background">Enchanted Forest Background</string>
+    <string name="reward_star_icon">Golden Star Icon</string>
+    <!-- New Settings Strings -->
+    <string name="settings_language_header">Language</string>
+    <string name="settings_sound_header">Sound and Vibration</string>
+    <string name="settings_sfx_volume">SFX Volume</string>
+    <string name="settings_bgm_volume">BGM Volume</string>
+    <string name="settings_vibration">Enable Vibration</string>
+    <string name="settings_account_header">Account and Progress</string>
+    <string name="settings_current_points">Current Points:</string>
+    <string name="settings_reset_progress">Reset Progress</string>
+    <string name="settings_about_header">About</string>
+    <string name="settings_version_format">Version %1$s</string>
+
+    <!-- Strings for the errors you encountered -->
+    <string name="settings_language_changed">Language changed. Please restart the app.</string>
+    <string name="settings_reset_warning">Are you sure? All your points and unlocked rewards will be deleted.</string>
+    <string name="settings_progress_reset_success">Progress reset successfully.</string>
+    <string name="settings_logout">Logout</string>
+    <string name="settings_logout_warning">Are you sure you want to log out?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+
+</resources>

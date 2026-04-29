@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_sky_light"
+    tools:context=".SettingsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- العنوان -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_title"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:layout_marginBottom="24dp" />
+
+        <!-- 1. إعدادات اللغة -->
+        <TextView
+            style="@style/SettingsHeader"
+            android:text="@string/settings_language_header" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:id="@+id/radio_arabic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/language_arabic"
+                android:textSize="18sp"
+                android:layout_marginEnd="24dp" />
+
+            <RadioButton
+                android:id="@+id/radio_english"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/language_english"
+                android:textSize="18sp" />
+        </RadioGroup>
+
+        <!-- 2. إعدادات الصوت -->
+        <TextView
+            style="@style/SettingsHeader"
+            android:text="@string/settings_sound_header" />
+
+        <!-- مستوى صوت المؤثرات -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_sfx_volume"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp" />
+
+        <SeekBar
+            android:id="@+id/seekbar_sfx_volume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="80"
+            android:layout_marginBottom="16dp" />
+
+        <!-- مستوى صوت الموسيقى -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_bgm_volume"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp" />
+
+        <SeekBar
+            android:id="@+id/seekbar_bgm_volume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="50"
+            android:layout_marginBottom="16dp" />
+
+        <!-- تشغيل/إيقاف الاهتزاز -->
+        <Switch
+            android:id="@+id/switch_vibration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_vibration"
+            android:textSize="18sp"
+            android:checked="true"
+            android:paddingVertical="8dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- 3. إعدادات الحساب (تم التعديل هنا ) -->
+        <TextView
+            style="@style/SettingsHeader"
+            android:text="@string/settings_account_header" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingVertical="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_current_points"
+                android:textSize="18sp"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:id="@+id/text_settings_current_points"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/accent"
+                tools:text="1250" />
+        </LinearLayout>
+
+        <!-- زر تسجيل الخروج (جديد) -->
+        <Button
+            android:id="@+id/button_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_logout"
+            android:backgroundTint="@color/primary"
+            android:layout_marginTop="16dp" />
+
+        <!-- زر إعادة تعيين التقدم -->
+        <Button
+            android:id="@+id/button_reset_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_reset_progress"
+            android:backgroundTint="@color/red_error"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- 4. حول التطبيق -->
+        <TextView
+            style="@style/SettingsHeader"
+            android:text="@string/settings_about_header" />
+
+        <TextView
+            android:id="@+id/text_version_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_version_format"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:paddingVertical="16dp"
+            tools:text="Version 1.0.0" />
+
+    </LinearLayout>
+</ScrollView>

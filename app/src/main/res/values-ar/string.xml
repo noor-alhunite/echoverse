@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">إيكو فيرس</string>
+
+    <!-- القائمة الرئيسية والتنقل -->
+    <string name="sound_library">مكتبة الأصوات</string>
+    <string name="daily_activities">الأنشطة اليومية</string>
+    <string name="games">الألعاب</string>
+    <string name="rewards">المكافآت والإنجازات</string>
+    <string name="statistics">الإحصائيات</string>
+    <string name="settings_button">الإعدادات</string>
+
+    <!-- مكتبة الأصوات -->
+    <string name="search_hint">ابحث عن صوت...</string>
+    <string name="all">الكل</string>
+    <string name="animals">الحيوانات</string>
+    <string name="vehicles">المركبات</string>
+    <string name="nature">الطبيعة</string>
+    <string name="music">الموسيقى</string>
+    <!-- موارد خاصة بمكتبة الأصوات -->
+    <string name="library_title">مكتبة الأصوات</string>
+    <string name="library_description">استمع إلى جميع الأصوات المتاحة في التطبيق وتعلم أسمائها.</string>
+
+
+    <!-- أسماء الأصوات -->
+    <string name="lion">أسد</string>
+    <string name="cat">قطة</string>
+    <string name="dog">كلب</string>
+    <string name="bird">طائر</string>
+    <string name="rain">مطر</string>
+    <string name="thunder">رعد</string>
+    <string name="car">سيارة</string>
+    <string name="ambulance">إسعاف</string>
+    <string name="fire_truck">شاحنة إطفاء</string>
+    <string name="bell">جرس</string>
+
+
+    <!-- الألعاب -->
+    <string name="sound_picture_match">طابق الصوت مع الصورة</string>
+    <string name="sound_sequence">تسلسل الأصوات</string>
+    <string name="odd_one_out">الغريب</string>
+    <string name="what_is_this_sound">ما هذا الصوت؟</string>
+    <string name="game_over_message">انتهت اللعبة! نتيجتك: %1$d/%2$d</string>
+
+
+    <!-- المهام اليومية -->
+    <string name="discover_new_sounds">اكتشف 3 أصوات جديدة</string>
+    <string name="listen_learn_sounds">استمع وتعلم أصوات جديدة</string>
+    <string name="match_sounds_pictures">طابق الأصوات مع الصور</string>
+    <string name="listen_animal_sounds">استمع إلى 3 أصوات حيوانات</string>
+    <string name="get_three_stars">احصل على 3 نجوم في الألعاب</string>
+    <string name="answer_correctly">أجب بشكل صحيح في الألعاب</string>
+
+    <!-- المكافآت -->
+    <string name="points">نقاط</string>
+    <string name="coins">عملات</string>
+    <string name="reward">مكافأة</string>
+    <string name="complete_all">أكمل جميع المهام اليومية للحصول على مكافأة خاصة</string>
+
+    <!-- الإحصائيات -->
+    <string name="current_level">المستوى الحالي</string>
+    <string name="level_progress">التقدم للمستوى التالي</string>
+    <string name="daily_streak">سلسلة الأيام المتتالية</string>
+    <string name="days">أيام</string>
+    <string name="total_points">إجمالي النقاط</string>
+
+    <!-- الإعدادات واختيار اللغة -->
+    <string name="settings_title">إعدادات التطبيق</string>
+    <string name="language_setting">اللغة</string>
+    <string name="sound_effects_toggle">تأثيرات صوتية</string>
+    <string name="account_management">إدارة الحساب</string>
+    <string name="select_language_prompt">الرجاء اختيار لغة التطبيق</string>
+    <string name="language_english">الإنجليزية</string>
+    <string name="language_arabic">العربية</string>
+
+    <!-- الأزرار -->
+    <string name="play">تشغيل</string>
+    <string name="stop">إيقاف</string>
+    <string name="start">ابدأ</string>
+    <string name="listen">استمع</string>
+    <string name="record">تسجيل</string>
+    <string name="next">التالي</string>
+    <string name="complete">إكمال</string>
+    <string name="continuee">متابعة</string>
+
+    <!-- رسائل -->
+    <string name="discover_world_sounds">اكتشف عالم الأصوات</string>
+    <string name="start_listening">ابدأ الاستماع</string>
+    <string name="start_game">ابدأ اللعبة</string>
+    <string name="keep_excellence">استمر في التميز!</string>
+
+    <!-- السطور الجديدة المضافة -->
+    <string name="start_activity">ابدأ النشاط</string>
+    <string name="today_progress">تقدم اليوم</string>
+    <string name="todays_activities">أنشطة اليوم</string>
+    <string name="back_to_main">العودة للرئيسية</string>
+    <string name="play_sound">تشغيل الصوت</string>
+    <string name="correct_answer">إجابة صحيحة! ممتاز!</string>
+    <string name="wrong_answer">إجابة خاطئة. حاول مرة أخرى.</string>
+
+    <!-- الإنجازات والتقارير -->
+    <string name="todays_achievement">إنجاز اليوم</string>
+    <string name="completed_activities">أكملت 3 أنشطة اليوم!</string>
+    <string name="earned_points">كسبت 25 نقطة ✓</string>
+    <string name="weekly_calendar">التقويم الأسبوعي</string>
+    <string name="days_streak">سلسلة 5 أيام متتالية</string>
+    <!-- الإنجازات اليومية (Daily Achievements) -->
+    <string name="achievement_title_1">المستمع النشط</string>
+    <string name="achievement_desc_1">أكمل 3 جولات لعب في لعبة الأصوات.</string>
+    <string name="achievement_title_2">مستكشف الأصوات</string>
+    <string name="achievement_desc_2">استمع إلى 5 أصوات مختلفة في مكتبة الأصوات.</string>
+    <string name="achievement_title_3">البطل اليومي</string>
+    <string name="achievement_desc_3">أكمل إنجازين يوميين.</string>
+    <string name="achievement_progress">التقدم: %1$d من %2$d</string>
+    <string name="rewards_title">المكافآت</string>
+    <string name="rewards_current_points">نقاطك الحالية:</string>
+    <string name="points_format">%1$d نقطة</string>
+    <string name="reward_status_unlocked">تم الفتح</string>
+    <string name="not_enough_points">نقاطك غير كافية لشراء هذه المكافأة.</string>
+    <string name="purchase_success">تهانينا! تم فتح: %1$s</string>
+    <string name="content_desc_points_icon">أيقونة النقاط</string>
+    <string name="content_desc_reward_icon">أيقونة المكافأة</string>
+    <string name="reward_ocean_sound">صوت المحيط الهادئ</string>
+    <string name="reward_forest_background">خلفية الغابة الساحرة</string>
+    <string name="reward_star_icon">أيقونة النجمة الذهبية</string>
+    <!-- موارد الإعدادات الجديدة -->
+    <string name="settings_language_header">اللغة</string>
+    <string name="settings_sound_header">الصوت والاهتزاز</string>
+    <string name="settings_sfx_volume">مستوى المؤثرات الصوتية</string>
+    <string name="settings_bgm_volume">مستوى الموسيقى الخلفية</string>
+    <string name="settings_vibration">تشغيل الاهتزاز</string>
+    <string name="settings_account_header">الحساب والتقدم</string>
+    <string name="settings_current_points">نقاطك الحالية:</string>
+    <string name="settings_reset_progress">إعادة تعيين التقدم</string>
+    <string name="settings_about_header">حول التطبيق</string>
+    <string name="settings_version_format">الإصدار %1$s</string>
+
+    <!-- موارد الأخطاء التي ظهرت لك -->
+    <string name="settings_language_changed">تم تغيير اللغة. يرجى إعادة تشغيل التطبيق.</string>
+    <string name="settings_reset_warning">هل أنت متأكد؟ سيتم حذف جميع نقاطك ومكافآتك المفتوحة.</string>
+    <string name="settings_progress_reset_success">تم إعادة تعيين التقدم بنجاح.</string>
+    <string name="settings_logout">تسجيل الخروج</string>
+    <string name="settings_logout_warning">هل أنت متأكد أنك تريد تسجيل الخروج؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+
+
+
+</resources>

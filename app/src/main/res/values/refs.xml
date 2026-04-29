@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="ic_games" />
+    <drawable name="ic_daily_activities" />
+    <drawable name="ic_sound_library" />
+    <drawable name="ic_settings.jpg" />
+    <drawable name="circle_background_white" />
+</resources>
